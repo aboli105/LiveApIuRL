@@ -21,26 +21,19 @@ on levelid => // https://edutech-app1.herokuapp.com/details?levelid=1
 
 
 
-//page3 Book Course (post)=  localhost:9500/BookCourse (body) > {
+//page3 BookCourse
+ (post)=  localhost:9500/BookCourse (body) > {
   
-name
-"Aboli"
-email
-"abos123@gmail.com"
-address
-"101 , sector 2"
-phone
-984267499
-cost
-2999
+{  "_id": {    "$oid": "625f8b000e3c32cdcf8ffec7"  },  "name": "cat",  "email": "cat123@",  "address": "c1 sector",  "phone": 78578644,  "cost": 2499,  "status": "pending",  "bank_name": ""}
 }
 
 //page4 See all order place=
- Get Order on basis of emailId https://edutech-app1.herokuapp.com/viewOrder?email=abos123@gmail.com
+ Get Order on basis of emailId : https://edutech-app1.herokuapp.com/viewCourse?email=cat123@
 
-localhost:9500/viewCourse?email=abos123@gmail.com
+localhost:9500/viewCourse?email=cat123@
 
 //page5 update order (put)=
- https://edutech-app1.herokuapp.com/updateOrder/6251a39a151064904127bc2c (body) { "status":"In Transit", "bankName":"" }
+ https://edutech-app1.herokuapp.com/updateOrder/625f8b000e3c32cdcf8ffec7
+  (body) { "status":"In Transit", "bankName":"" }
 
-localhost:9500/updateCourse/6251a39a151064904127bc2c (body) { "status":"In Transit", "bankName":"" }
+localhost:9500/updateCourse/625f8b000e3c32cdcf8ffec7 (body) { "status":"In Transit", "bankName":"" }
