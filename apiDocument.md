@@ -8,7 +8,7 @@
 
 //page2 
 
-level based categoryid= https://edutech-app1.herokuapp.com/level?category_id=1
+level based categoryid= https://edutech-app1.herokuapp.com/level?categoryid=1
 localhost:9500/level?categoryid=1
 
 
